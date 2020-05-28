@@ -3,3 +3,31 @@
     padding: 25rem 0;
     margin-top: -20vh;
 }
+
+.section-feature {
+    padding: 20rem 0;
+    margin-top: -10rem;
+    transform: skewY(-7deg);
+    position: relative;
+    background: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, .3),
+        $color-primary-dark),
+        url(../img/img-4.jpg);
+
+        background-size: cover;
+        background-repeat: no-repeat;
+
+     
+    // direct-child selector
+    & > * {
+        transform: skewY(7deg);
+    }
+};
+
+.section-plans {
+    margin-top: -9rem;
+
+    background-color: $color-light-gray-1;
+    padding: 20rem 15rem
+}

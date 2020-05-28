@@ -3,7 +3,7 @@
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light, .3),
-        $color-primary),
+        $color-primary-dark),
         url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
@@ -24,7 +24,7 @@
 
     &__text-box {
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
